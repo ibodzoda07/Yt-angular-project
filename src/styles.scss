@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --background-color: #000;
+    --light-color: #fff;
+    --primary-color: #AE7AFF;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--light-color);
+}
+
+.skill-tag{
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--light-color);
+    display: inline;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.btn {
+    border: none;
+    background-color: var(--primary-color);    
+    color: var(--dark-color);    
+    padding: 10px 20px;
+}
